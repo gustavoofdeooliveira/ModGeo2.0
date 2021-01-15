@@ -27,9 +27,7 @@
 .bottom-right{
   margin-top: 125%;
 }
-.position{
-margin-left: -30%;
-}
+
 html,
 body,
 .carousel,
@@ -45,4 +43,23 @@ body,
 }
 .item:nth-child(3) {
   background: #E46653;
+}
+.slider-one{
+  margin-top: -1.5%;
+  background-color: #f7f7ff;
+  height: 100%;
+}
+.slider-two{
+  margin-top: -1.5%;
+  background-color: #5798B2;
+  opacity: 80%;
+  height: 100%;
+}
+.slider-three{
+  margin-top: -1.5%;
+  background-color: #f7f7ff;
+  height: 100%;
+}
+h1{
+  font-family: sans-serif;
 }
