@@ -2,16 +2,12 @@
 .sec-about p {
   text-align: center;
 }
-
 .navbar a {
   font-size: 16px;
 }
-
 .navbar .fa-external-link {
-  font-size: 10px;
+  font-size: 10px; 
 }
-
-
 .container > h1 {
   font-weight: 300;
   text-align: center;
@@ -20,7 +16,8 @@
 
 /*navbar*/
 .navbar-default {
-  background: #fff;
+
+  background: #3A6B7E;
 }
 
 .navbar .fa-external-link {
