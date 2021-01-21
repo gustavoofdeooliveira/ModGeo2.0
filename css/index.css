@@ -2,8 +2,9 @@
 .sec-about p {
   text-align: center;
 }
-.navbar a {
-  font-size: 16px;
+.navbar a{
+  font-size: 21px;
+  font-family: 'Open Sans';
 }
 .navbar .fa-external-link {
   font-size: 10px; 
@@ -15,8 +16,13 @@
 }
 
 /*navbar*/
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+  margin-top: 5px;
+}
 .navbar-default {
-
   background: #3A6B7E;
 }
 
@@ -26,16 +32,27 @@
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ad0000;
+  color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:active {
-  color: #940000;
+  color: #000;
 }
 .logo-nav{
   margin-left: -50%;
 }
 
+.bottom-projeto {
+  background-color:#8FBACC;
+  border-radius: 50px ;
+  text-align: center;
+  margin-top: -510px;
+  height: 40px;
+  position: relative;
+}
+.bottom-position{
+  margin-bottom: 150px;
+}
 
 /*Carrossel*/
 .carousel-fade .carousel-inner .item {
